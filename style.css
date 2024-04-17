@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+}
+
+.logo , .links {
+    margin: 20px 30px 20px 30px;
+    font-size: 20px;
+}
+
+header {
+    margin: 50px 0px 0 30px;
+}
+.links a {
+    padding: 10px;
+}
+
+.post{
+    margin-bottom: 10px;
+}
+
+.post , h1 {
+    margin-bottom: 10px;
+}
+
+.last_project {
+    margin-top: 100px;
+    display: flex;
+}
+.last_image_project, img {
+    object-fit: cover;
+    width: 450;
+    height: 200px;
+}
+
+.title_porfilo {
+    border-bottom: 2px solid #000;
+}
