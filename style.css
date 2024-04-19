@@ -71,5 +71,19 @@ header {
 
 .resume_portfilo
 {
-    margin: 0 0 0 50px;
+    margin: 20px 0 0 50px;
+}
+
+.project_list {
+    display: flex;
+}
+
+.project_one{
+    margin: 10px;
+}
+
+.project_one img{
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
 }
