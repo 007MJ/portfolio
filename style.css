@@ -9,12 +9,12 @@ nav{
 }
 
 .logo , .links {
-    margin: 20px 30px 20px 30px;
+    margin: 20px 30px 20px 50px;
     font-size: 20px;
 }
 
 header {
-    margin: 50px 0px 0 30px;
+    margin: 50px 0px 0 50px;
 }
 .links a {
     padding: 10px;
@@ -32,12 +32,44 @@ header {
     margin-top: 100px;
     display: flex;
 }
+
+.last_text_image_project 
+{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 200px;
+}
+
+.last_text_image_text
+{
+    margin-top: 30px;
+}
+.button_see
+{
+    position: absolute;
+    bottom: 0;
+}
+
 .last_image_project, img {
     object-fit: cover;
     width: 450;
     height: 200px;
+    border-radius: 20px;
 }
 
-.title_porfilo {
+.border_bottom {
+    margin-top: 100px;
     border-bottom: 2px solid #000;
+}
+
+.title_porfilo
+{
+    margin: 0 0 10px 50px;
+}
+
+.resume_portfilo
+{
+    margin: 0 0 0 50px;
 }
