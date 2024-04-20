@@ -80,10 +80,31 @@ header {
 
 .project_one{
     margin: 10px;
+    display: flex;
+}
+
+.project_one_text{
+    margin: 0px 13px 0px 0px;
+    width: 20%;
 }
 
 .project_one img{
     width: 700px;
     height: 400px;
     object-fit: cover;
+}
+
+.content_skills {
+    display: flex;
+    justify-content: center;
+}
+
+.skil_one
+{
+    margin: 20px 13px 0px 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
 }
