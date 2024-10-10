@@ -34,8 +34,16 @@ body{
 }
 
 /* end */
+
+/* section-skill */
 .section-skill{
     background-color: #97CDF2;
+}
+
+.skill-1 img {
+    height: auto;
+    max-width: 150px;
+    padding: 5px;
 }
 
 footer {
