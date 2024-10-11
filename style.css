@@ -64,20 +64,24 @@ body{
     border-radius: 10%;
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 973px){
+    .section-project {
+        flex-direction: column;
+    }
+    .btn {
+        margin-bottom: 15px;
+        max-width: 350px
+    }
+    
+}
+
 /* footer section */
 footer {
     background-color: #97CDF2;
 }
 /* end */
-.btn-dif {
-    background-color: #A05222;
-    text-align: center;
-    border-radius: 20px;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #fff;
-}
+
 .link-footer{
     margin: 10px;
 }
