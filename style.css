@@ -5,6 +5,9 @@ body{
     background-color: #023047;
     color: #fff;
 }
+.header a{
+    color: #fff;
+}
 
 /* header main */
 .header-about{
@@ -36,6 +39,9 @@ body{
 /* end */
 
 /* section-skill */
+.main-skill{
+    margin-top: 100px;
+}
 .section-skill{
     background-color: #97CDF2;
 }
@@ -45,9 +51,35 @@ body{
     max-width: 150px;
     padding: 5px;
 }
+.botton-footer{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+/* end */
 
+/* section-project */
+.section-projec-1 img{
+    height: auto;
+    max-width: 350px;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+/* footer section */
 footer {
     background-color: #97CDF2;
+}
+/* end */
+.btn-dif {
+    background-color: #A05222;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+.link-footer{
+    margin: 10px;
 }
 
 .links a , .navbar-brand a{
