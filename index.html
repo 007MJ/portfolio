@@ -13,31 +13,32 @@
         <script defer src="script.js" ></script>
 </head>
 <body>
-    <div class="container d-flex flex-column vh-100">
-        <div class="header header-responsive d-flex justify-content-between container-fluid">
-            <div class="navbar-brand">
-                <a href="">Portfolio</a>
-            </div>
-            <div class="links">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Projects</a>
-                <a href="">Skill</a>
-            </div>
-            <div class="sidebar">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Projects</a>
-                <a href="">Skill</a>
-            </div>
-            <div class="icon_nav">
-                <a href="">
-                    <span class="material-symbols-outlined" onclick="displaySidebar()">
-                        menu
-                    </span>
-                </a>
-            </div>
+    <div class="header d-flex vh-100">
+        <div class="navbar-brand">
+            <a href="">Portfolio</a>
         </div>
+        <div class="links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </div>
+        <div class="icon_nav">
+            <a href="#">
+                <span class="material-symbols-outlined" onclick="displaySidebar()">
+                    menu
+                </span>
+            </a>
+        </div>
+        <div class="close_nav">
+            <a href="#">
+                <img src="./icone/close_nav.svg" alt="x bar to close the nav bar" onclick="close_navbar()">
+            </a>
+        </div>
+    </div>
+    <!-- <div class="core-main container d-flex flex-column vh-100">
 
         <div class="main container-fluid">
             <div class="header-about d-flex justify-content-center">
@@ -106,6 +107,6 @@
                 </div>
             </div>
         </footer>
-    </div>
+    </div> -->
 </body>
 </html>
