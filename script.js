@@ -17,5 +17,7 @@ function  close_navbar(){
     close_nav.style.display = "none"
     const icone_open = document.querySelector(".icon_nav");
     icone_open.style.display = "flex";
+    const bg_header =  document.querySelector(".header");
+    bg_header.style.backgroundColor = ""
 
 }
