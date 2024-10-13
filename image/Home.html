@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
-        <link rel="stylesheet" href="style.css">
+        <link href="Home_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link href="Home_files/css2_002.css" rel="stylesheet">
+        <link rel="stylesheet" href="Home_files/css2.css">
+        <link rel="stylesheet" href="Home_files/style.css">
         <title>Home</title>
-        <script defer src="script.js" ></script>
+        <script defer="defer" src="Home_files/script.js"></script>
         <script></script>
 </head>
 <body>
@@ -33,7 +33,7 @@
             </div>
             <div class="icon_nav">
                 <a href="">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined " onclick="displaySidebar()">
                         menu
                     </span>
                 </a>
@@ -47,7 +47,7 @@
                     <a href="" class="btn">About me</a>
                 </div>
                 <div class="right-b">
-                    <img src="/image/profil.jpg" alt="mon img profil 42 etudiant">
+                    <img src="Home_files/profil.jpg" alt="mon img profil 42 etudiant">
                 </div>
             </div>
 
@@ -56,22 +56,22 @@
                 <div class="section-skill d-flex justify-content-evenly">
                     <div class="skill-1">
                         <a href="">
-                            <img src="/image/c.jpeg" alt="langage c">
+                            <img src="Home_files/c.jpeg" alt="langage c">
                         </a>
                     </div>
                     <div class="skill-1">
                         <a href="">
-                            <img src="/image/c.jpeg" alt="langage c">
+                            <img src="Home_files/c.jpeg" alt="langage c">
                         </a>
                     </div>
                     <div class="skill-1">
                         <a href="">
-                            <img src="/image/c.jpeg" alt="langage c">
+                            <img src="Home_files/c.jpeg" alt="langage c">
                         </a>
                     </div>
                     <div class="skill-1">
                         <a href="">
-                            <img src="/image/c.jpeg" alt="langage c">
+                            <img src="Home_files/c.jpeg" alt="langage c">
                         </a>
                     </div>
                 </div>
@@ -83,12 +83,12 @@
                 <div class="section-project d-flex justify-content-evenly">
 
                     <div class="section-projec-1 d-flex flex-column">
-                        <img src="/image/recipe.jpeg" alt="recipe img for app">
+                        <img src="Home_files/recipe.jpeg" alt="recipe img for app">
                             <a href="" class="btn">Recipe</a>
                     </div>
 
                     <div class="section-projec-1 d-flex flex-column">
-                        <img src="/image/recipe.jpeg" alt=" recipe img for app">
+                        <img src="Home_files/recipe.jpeg" alt=" recipe img for app">
                             <a href="" class="btn">Recipe</a>
                     </div>
 
@@ -105,8 +105,47 @@
                 <div class="link-footer">
                     <a href="https://ca.linkedin.com/in/mijiza-k-50b2902a4">Linked</a>
                 </div>
+
             </div>
         </footer>
     </div>
-</body>
-</html>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
