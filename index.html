@@ -13,32 +13,37 @@
         <script defer src="script.js" ></script>
 </head>
 <body>
-    <div class="header fixed-top vh-100">
+    <div class="header fixed-top vh-100 d-flex ">
         <div class="navbar-brand">
             <a href="">Portfolio</a>
         </div>
-        <div class="links">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
-            </ul>
-        </div>
-        <div class="icon_nav">
+        <div class="open_nav">
             <a href="#">
-                <span class="material-symbols-outlined" onclick="displaySidebar()">
-                    menu
-                </span>
-            </a>
-        </div>
-        <div class="close_nav">
-            <a href="#">
-                <img src="./icone/close_nav.svg" alt="x bar to close the nav bar" onclick="close_navbar()">
+                <img src="/icone/open_nav.svg" alt="open icone" onclick="displaySidebar()">
             </a>
         </div>
     </div>
 
+    <div class="header-reponsive fixed-top vh-100">
+        <div class="up">
+            <div class="navbar-brand">
+                <a href="">Portfolio</a>
+            </div>
+            <div class="open_nav">
+                <a href="#">
+                    <img src="/icone/close_nav.svg" alt="close icone" onclick="close_navbar()">
+                </a>
+            </div>
+        </div>
+        <div class="links  d-flex flex-column align-self-center">
+            <ul> <a href=""> home</a></ul>
+            <ul> <a href=""> home</a></ul>
+            <ul> <a href=""> home</a></ul>
+            <ul> <a href=""> home</a></ul>
+            <ul> <a href=""> home</a></ul>
+        </div>
+    </div>
+        
     <div class="container d-flex flex-column mt-5">
         <div class="main container-fluid">
             <div class="header-about  d-flex flex-column align-items-center">

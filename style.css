@@ -1,39 +1,29 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 /* nav bar */
-.header a{
+body a{
     color: #fff;
 }
-.header {
+.header , .up {
     display: flex;
     justify-content: space-between;
 
 }
-.links a, .navbar-brand a{
+
+.header-reponsive  {
+    display: none;
+    flex-direction: column;
+    background-color: #97CDF2;
+}
+
+.links ul, .navbar-brand a{
     font-family: "Afacad Flux", serif;
     font-size: 30px;
     text-decoration: none;
 }
 
-
-.icon_nav {
-    display: flex;
-}
-
-.links ul  li {
-    list-style: none;
-}
-
-.links {
-    display: none;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-}
-
-.close_nav{
-    display: none;
+.links a {
+    text-decoration: none;
 }
 /* end */
 
