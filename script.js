@@ -14,3 +14,5 @@ function  close_navbar(){
 }
 
 
+let container = document.querySelector(".main-skill");
+let innerContainer = document.querySelector(".section-skill")
