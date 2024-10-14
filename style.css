@@ -1,9 +1,16 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-/* nav bar */
+/* body */
+
+body{
+    background-color: #023047;
+    color: #fff;
+}
 body a{
     color: #fff;
 }
+
+/* nav bar */
 .header , .up {
     display: flex;
     justify-content: space-between;
@@ -28,14 +35,6 @@ body a{
 /* end */
 
 
-/* body */
-
-body{
-    background-color: #023047;
-    color: #fff;
-}
-
-/* end */
 
 /* section header-about  */
 .right-b img{
@@ -51,5 +50,22 @@ body{
     color: #fff;
 }
 
-
 /* end */
+
+/* skill section */
+
+.skill-1 img {
+    width: 100px;
+    margin: 2px;
+}
+.section-skill{
+    background-color: #97CDF2;
+    pointer-events: none;
+    /* transform: translate(-50%, -50%); */
+    /* top: 50%; */
+    /* left: 50%; */
+}
+/* end */
+
+
+
