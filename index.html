@@ -12,15 +12,14 @@
         <title>Home</title>
         <script defer src="script.js" ></script>
 </head>
-<body>
-    <div class="header fixed-top vh-100 d-flex ">
+<body class="d-flex flex-column">
+    
+    <div class="header d-flex ">
         <div class="navbar-brand">
-            <a href="">Portfolio</a>
+            <a href="/index.html">Portfolio</a>
         </div>
         <div class="open_nav">
-            <a href="#">
                 <img src="/icone/open_nav.svg" alt="open icone" onclick="displaySidebar()">
-            </a>
         </div>
     </div>
 
@@ -30,9 +29,7 @@
                 <a href="">Portfolio</a>
             </div>
             <div class="open_nav">
-                <a href="#">
                     <img src="/icone/close_nav.svg" alt="close icone" onclick="close_navbar()">
-                </a>
             </div>
         </div>
         <div class="links  d-flex flex-column align-self-center">
@@ -43,8 +40,8 @@
             <ul> <a href=""> home</a></ul>
         </div>
     </div>
-        
-    <div class="container d-flex flex-column mt-5">
+
+    <div class="container  mt-5">
         <div class="main container-fluid">
             <div class="header-about  d-flex flex-column align-items-center">
                 <div class="right-b">
@@ -53,7 +50,8 @@
                 <div class="left-a  d-flex flex-column align-items-center">
                     <p class="fs-1">Developper d’application</p>
                     <div class="btn_section">
-                        <a href="#" class="a_btn">About-me</a> <a class="a_btn" href="https://ca.linkedin.com/in/mijiza-k-50b2902a4" class="a_btn"  target="_blank"   >Linked</a>
+                        <a href="#" class="a_btn">About-me</a> 
+                        <a class="a_btn" href="https://ca.linkedin.com/in/mijiza-k-50b2902a4" class="a_btn"  target="_blank"   >Linked</a>
                     </div>
                 </div>
             </div>
@@ -62,57 +60,63 @@
                  <h2>Skill</h2>
                 <div class="section-skill d-flex justify-content-evenly overflow-hidden"> 
                     <div class="skill-1">
-                        <a href="#">
+                        <!-- <a href="#"> -->
                             <img src="/image/c.jpeg" alt="langage c">
-                        </a>
+                        <!-- </a> -->
                     </div>
                     <div class="skill-1">
-                        <a href="#">
+                        <!-- <a href="#"> -->
                             <img src="/image/c.jpeg" alt="langage c">
-                        </a>
+                        <!-- </a> -->
                     </div>
                     <div class="skill-1">
-                        <a href="#">
-                            <img src="/image/c.jpeg" alt="langage c">
-                        </a>
+                        <!-- <a href="#"> -->
+                            <img src="/image/cpp.jpg" alt="langage c">
+                        <!-- </a> -->
                     </div>
                     <div class="skill-1">
-                        <a href="#">
+                        <!-- <a href="#"> -->
                             <img src="/image/c.jpeg" alt="langage c">
-                        </a>
+                        <!-- </a> -->
+                    </div>
+                    <div class="skill-1">
+                        <!-- <a href="#"> -->
+                            <img src="/image/python.jpg" alt="langage c">
+                        <!-- </a> -->
                     </div>
                 </div>
             </div> 
-            <!-- <div class="botton-footer">
+            <div class="container botton-footer mt-5">
                 <h2>Projects</h2>
-
-                <div class="section-project d-flex justify-content-evenly">
-
-                    <div class="section-projec-1 d-flex flex-column">
+                <div class="section-project d-flex flex-column align-items-center">
+                    <div class="section-projec-1 d-flex flex-column align-items-center">
                         <img src="/image/recipe.jpeg" alt="recipe img for app">
-                            <a href="" class="btn">Recipe</a>
+                        <div>
+                            <a href="" class="btn m-1 btn-color_speciaux" >Recipe</a>
+                        </div>
                     </div>
-
-                    <div class="section-projec-1 d-flex flex-column">
-                        <img src="/image/recipe.jpeg" alt=" recipe img for app">
-                            <a href="" class="btn">Recipe</a>
+                    <div class="section-projec-1  d-flex flex-column align-items-center m-2">
+                        <img src="/image/moneyapp.avif" alt=" recipe img for app">
+                        <div>
+                            <a href="" class="btn m-1">Recipe</a>
+                        </div>
                     </div>
 
                 </div>
             </div>
-        </div> -->
-        <!-- <footer class="mt-auto">
-            <div class="links-contact d-flex justify-content-center">
-
-                <div class="link-footer">
-                    <a href="https://github.com/007MJ">GitHub</a>
-                </div>
-
-                <div class="link-footer">
-                    <a href="https://ca.linkedin.com/in/mijiza-k-50b2902a4">Linked</a>
-                </div>
-            </div>
-        </footer> -->
+        </div>
     </div> 
+    <footer class="mt-auto">
+        <div class="links-contact d-flex justify-content-center">
+
+            <div class="link-footer">
+                <a href="https://github.com/007MJ">GitHub</a>
+            </div>
+
+            <!-- <div class="link-footer">
+                <a href="https://ca.linkedin.com/in/mijiza-k-50b2902a4">Linked</a>
+            </div> -->
+        </div>
+    </footer>
 </body>
 </html>

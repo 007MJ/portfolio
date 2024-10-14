@@ -17,6 +17,11 @@ body a{
 
 }
 
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .header-reponsive  {
     display: none;
     flex-direction: column;
@@ -68,4 +73,27 @@ body a{
 /* end */
 
 
+/*  bottom-footer*/
 
+.section-projec-1 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #97CDF2;
+    width: 100%;
+}
+.btn-color_speciaux{
+    background-color: #A05222;
+}
+/* end */
+
+/* end of page */
+
+.links-contact {
+    background-color: #97CDF2;
+}
+
+/* end */
