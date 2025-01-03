@@ -19,9 +19,9 @@ const handleLocation  = () => {
         getPath = routes[404];
     else
         getPath = routes[path];
-    console.log(getPath, 1111);
     return getPath;
 }
+
 
 window.onpopstate = handleLocation;
 window.route = route;
